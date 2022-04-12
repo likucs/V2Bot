@@ -11,7 +11,7 @@ class Translation(object):
 
 <b>Use Help Command to Know How to Use me</b>
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+<b>Made With 💕 By</b><b> @cs_cloud</b>
 """
     HELP_TEXT = """
 <b>Link to Media or File</b>
@@ -38,25 +38,25 @@ class Translation(object):
 <b>Upload To Anonfiles</b>
 ➠ Send /uptoanonfile .</b>
 
-<b>Made With 💕 By</b><b> @Tellybots_4u</b>
+<b>Made With 💕 By</b><b> @iAmLiKu1</b>
 """
-    ABOUT_TEXT = """
+    ABOUT_TEXT = """                   
  **🤖 <b>Bot :** URL Uploader</b>\n
- **👲 <b>Developer :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
- **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/tellybots_4u)</b>\n
+ **👲 <b>Developer :** [Cs Lɪᴋᴜ](https://telegram.me/iAmLiKu1)</b>\n
+ **👥 <b>Channel :** [Tellybots_4u](https://telegram.me/cs_cloud)</b>\n
  **❄️ <b>Credits :** Everyone in this journey</b>\n
- **🍴 <b>Source :** [Click here](https://t.me/tellybots_digital)</b>\n
+ **🍴 <b>Source :** [Click here](https://t.me/cs_cloud)</b>\n
  **📝 <b>Language :** [Python3](https://python.org)</b>\n
  **📚 <b>Library :** [Pyrogram v1.2.0](https://pyrogram.org)</b>\n
  **🌟 <b>Server :** [Heroku](https://heroku.com)</b>\n
 """
     START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🤖 Update Channel', url='https://telegram.me/tellybots_4u'),
-        InlineKeyboardButton('💬 Support Group', url='https://telegram.me/tellybots_support')
+        InlineKeyboardButton('📢 Update Channel', url='https://telegram.me/tellybots_4u'),
+        InlineKeyboardButton('💜 Support Group', url='https://telegram.me/tellybots_support')
         ],[
-        InlineKeyboardButton('❔ Help', callback_data='help'),
-        InlineKeyboardButton('Close', callback_data='close')
+        InlineKeyboardButton('🤧 Help', callback_data='help'),
+        InlineKeyboardButton('😑 Close', callback_data='close')
         ]]
     )
     HELP_BUTTONS = InlineKeyboardMarkup(
@@ -93,7 +93,7 @@ URL | filename | username | password"""
     AFTER_SUCCESSFUL_UPLOAD_MSG = "By @Tellybots_4u"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\n\nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
-    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@iAmLiKu1</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
@@ -122,10 +122,10 @@ JOIN : https://t.me/TGBotsCollection \n For the List of Telegram Bots"""
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
     REPLY_TO_DOC_FOR_RENAME_FILE = "Reply to a Telegram media to /ren with custom thumbnail support"
-    AFTER_GET_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\nJoin : @TGBotsCollection"
-    AFTER_GET_DL_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\nValid for <b>14</b> days.\nJoin : @TGBotsCollection"
-    #AFTER_GET_DL_LINK = " {} valid for 30 or more days.\n\n Join : @TGBotsCollection \n For the list of Telegram bots. "
-    AFTER_GET_GOFILE_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n<b>File MD5 Checksum :</b> <code>{}</code>\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\n Valid untill 10 days of inactivity\nJoin : @TGBotsCollection"
+    AFTER_GET_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\nJoin : @cs_cloud"
+    AFTER_GET_DL_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\nValid for <b>14</b> days.\nJoin : @cs_cloud"
+    #AFTER_GET_DL_LINK = " {} valid for 30 or more days.\n\n Join : @cs_cloud \n For the list of Telegram bots. "
+    AFTER_GET_GOFILE_LINK = " <b>File Name :</b> <code>{}</code>\n<b>File Size :</b> {}\n<b>File MD5 Checksum :</b> <code>{}</code>\n\n<b>⚡Link⚡ :</b> <code>{}</code>\n\n Valid untill 10 days of inactivity\nJoin : @cs_cloud"
     FF_MPEG_RO_BOT_RE_SURRECT_ED = """Syntax: /trim HH:MM:SS for screenshot of that specific time."""
     FF_MPEG_RO_BOT_STEP_TWO_TO_ONE = "First send /downloadmedia to any media so that it can be downloaded to my local. \nSend /storageinfo to know the media, that is currently downloaded."
     FF_MPEG_RO_BOT_STOR_AGE_INFO = "Video Duration: {}\nSend /clearffmpegmedia to delete this media, from my storage.\nSend /trim HH:MM:SS [HH:MM:SS] to cu[l]t a small photo / video, from the above media."
@@ -136,11 +136,11 @@ JOIN : https://t.me/TGBotsCollection \n For the List of Telegram Bots"""
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
     INVALID_UPLOAD_BOT_URL_FORMAT = "URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension"
     ABUSIVE_USERS = "You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction."
-    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @TGBotsCollectionbot \n For the list of Telegram bots. "
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Join : @cs_cloud \n For the list of Telegram bots. "
     EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
     EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
     UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
-    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
+    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice, and if the issue persists, report this to <a href='https://telegram.dog/ThankTelegram'>@iAmLiKu1</a>"
     EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
 You can use /rename command after receiving file to rename it with custom thumbnail support."""
     CANCEL_STR = "Process Cancelled"
