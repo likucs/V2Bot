@@ -9,7 +9,7 @@
   ],
   "success_url": "https://github.com/FayasNoushad",
   "website": "https://fayas.cf",
-  "repository": "https://github.com/FayasNoushad/URL-Uploader",
+  "repository": "https://github.com/likucs/V2Bot",
   "env": {
     "WEBHOOK": {
       "description": "Leave this as it is!",
